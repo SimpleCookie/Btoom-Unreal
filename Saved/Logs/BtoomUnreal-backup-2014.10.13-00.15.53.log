@@ -1,0 +1,620 @@
+Log file open, 10/12/14 22:03:34
+LogInit:Display: Running engine for game: BtoomUnreal
+LogInit: Version: 4.4.3-2296771+++depot+UE4-Releases+4.4
+LogInit: API Version: 2255576
+LogInit: Compiled (64-bit): Sep 13 2014 22:30:58
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.4
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/4.4/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.10.12-20.03.34:679][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.10.12-20.03.34:707][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.10.12-20.03.34:715][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.10.12-20.03.34:720][  0]LogInit: Object subsystem initialized
+[2014.10.12-20.03.34:721][  0]LogInit: Selected Device Profile: [Windows]
+[2014.10.12-20.03.34:721][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.10.12-20.03.34:785][  0]LogInit: Computer: GODESITY
+[2014.10.12-20.03.34:785][  0]LogInit: User: Johannes
+[2014.10.12-20.03.34:788][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.10.12-20.03.34:788][  0]LogInit: High frequency timer resolution =2.435775 MHz
+[2014.10.12-20.03.34:788][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=131072.0GB
+[2014.10.12-20.03.34:788][  0]LogMemory: Platform Memory Stats for Windows
+[2014.10.12-20.03.34:788][  0]LogMemory: Process Physical Memory: 58.71 MB used, 58.71 MB peak
+[2014.10.12-20.03.34:788][  0]LogMemory: Process Virtual Memory: 36.27 MB used, 36.27 MB peak
+[2014.10.12-20.03.34:788][  0]LogMemory: Physical Memory: 4276.74 MB used, 8104.27 MB total
+[2014.10.12-20.03.34:788][  0]LogMemory: Virtual Memory: 265.49 MB used, 134217728.00 MB total
+[2014.10.12-20.03.34:820][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 860M   (Feature Level 11_0)
+[2014.10.12-20.03.34:820][  0]LogD3D11RHI: Adapter has 1972MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2014.10.12-20.03.34:826][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2014.10.12-20.03.34:826][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 1792MB of shared system memory, 0 output[s]
+[2014.10.12-20.03.34:827][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2014.10.12-20.03.34:827][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2014.10.12-20.03.34:827][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.10.12-20.03.34:833][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.10.12-20.03.34:843][  0]LogD3D11RHI: Async texture creation enabled
+[2014.10.12-20.03.34:939][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.10.12-20.03.36:128][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.12-20.03.36:453][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.12-20.03.36:485][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.10.12-20.03.36:525][  0]LogDerivedDataCache: Loaded boot cache 0.04s 39MB C:/Users/Johannes/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.10.12-20.03.36:526][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Johannes/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc
+[2014.10.12-20.03.36:526][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Johannes/Documents/Unreal Projects/BtoomUnreal/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.10.12-20.03.36:526][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.10.12-20.03.36:540][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.10.12-20.03.36:557][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Johannes/AppData/Local/UnrealEngine/4.4/DerivedDataCache: Writable
+[2014.10.12-20.03.36:687][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.10.12-20.03.36:687][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.10.12-20.03.36:981][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.10.12-20.03.37:749][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_5634_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_2720_0///////STATCAT_Advanced////
+[2014.10.12-20.03.37:749][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.10.12-20.03.37:872][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2014.10.12-20.03.37:877][  0]SourceControl: Info Source control is disabled
+[2014.10.12-20.03.37:877][  0]SourceControl: Info Source control is disabled
+[2014.10.12-20.03.37:877][  0]SourceControl: Info Source control is disabled
+[2014.10.12-20.03.37:883][  0]SourceControl: Info Source control is disabled
+[2014.10.12-20.03.38:019][  0]BlueprintLog: New page: Editor Load
+[2014.10.12-20.03.38:105][  0]LogObj: 21438 objects as part of root set at end of initial load.
+[2014.10.12-20.03.38:105][  0]LogUObjectAllocator: 4218656 out of 0 bytes used by permanent object pool.
+[2014.10.12-20.03.38:238][  0]LogEngine: Initializing Engine...
+[2014.10.12-20.03.38:319][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2014.10.12-20.03.38:339][  0]LogInit: FAudioDevice initialized.
+[2014.10.12-20.03.38:356][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.10.12-20.03.38:496][  0]LogDerivedDataCache: Saved boot cache 0.14s 39MB C:/Users/Johannes/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.10.12-20.03.38:501][  0]LogInit: Texture streaming: Enabled
+[2014.10.12-20.03.38:527][  0]LogInit: Transaction tracking system initialized
+[2014.10.12-20.03.38:614][  0]LogAssetRegistry: FAssetRegistry took 0.0106 seconds to start up
+[2014.10.12-20.03.38:990][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.12-20.03.39:252][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.12-20.03.39:358][  0]LogConsoleResponse:Display: 
+[2014.10.12-20.03.39:498][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_1188_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_2720_0///////STATCAT_Advanced////
+[2014.10.12-20.03.39:498][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_51fc_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_2720_0///////STATCAT_Advanced////
+[2014.10.12-20.03.39:498][  0]SourceControl: Info Source control is disabled
+[2014.10.12-20.03.39:498][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1
+[2014.10.12-20.03.39:498][  0]LightingResults: New page: Lighting Build
+[2014.10.12-20.03.39:505][  0]MapCheck: New page: Map Check
+[2014.10.12-20.03.39:505][  0]LightingResults: New page: Lighting Build
+[2014.10.12-20.03.39:516][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001965799300
+[2014.10.12-20.03.39:634][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.10.12-20.03.39:634][  0]LogAIModule: Creating AISystem for world Template_Default
+[2014.10.12-20.03.39:634][  0]Cmd: MAP CHECKDEP
+[2014.10.12-20.03.39:634][  0]MapCheck: New page: Untitled_1 - Oct 13, 2014, 12:03:39 AM
+[2014.10.12-20.03.39:705][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [71.033ms] ==========
+[2014.10.12-20.03.39:705][  0]LogFileHelpers: Loading map 'Template_Default' took 0.207
+[2014.10.12-20.03.39:923][  0]LogCollectionManager: Loaded 0 collections in 0.000809 seconds
+[2014.10.12-20.03.40:150][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.10.12-20.03.40:204][  0]LogLoad: Full Startup: 6.36 seconds (BP compile: 0.04 seconds)
+[2014.10.12-20.03.40:773][  0]LogRenderer:Warning: Reallocating scene render targets to support 912x688.
+[2014.10.12-20.03.43:314][103]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.10.12-20.03.59:519][ 75]LogAssetRegistry: Asset discovery search completed in 20.9164 seconds
+[2014.10.12-20.04.02:625][237]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.12-20.04.02:625][237]PIE: New page: PIE session: Untitled_1 (Oct 13, 2014, 12:04:02 AM)
+[2014.10.12-20.04.02:627][237]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001178s)
+[2014.10.12-20.04.02:627][237]LogPlayLevel: PIE: World Init took: (0.000723s)
+[2014.10.12-20.04.02:627][237]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.002194s)
+[2014.10.12-20.04.02:776][237]LogWorld: Game class is 'GameMode'
+[2014.10.12-20.04.02:782][237]LogAIModule: Creating AISystem for world Template_Default
+[2014.10.12-20.04.02:784][237]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 60) at 2014.10.12-22.04.02
+[2014.10.12-20.04.02:785][237]LogWorld: Bringing up level for play took: 0.002747
+[2014.10.12-20.04.02:788][237]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.399
+[2014.10.12-20.04.11:854][767]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000019659931A0
+[2014.10.12-20.04.13:446][860]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2014.10.12-20.04.33:159][519]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2014.10.12-20.06.23:286][ 25]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.10.12-20.06.27:428][256]LogLinker:Warning: Asset '../../../../../../Users/Johannes/Documents/Unreal Projects/BtoomUnreal/Content/Blueprints/Blueprint_Effect_Explosion.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.10.12-20.06.27:434][256]LogLinker:Warning: Can't find file '/Game/Textures/T_Burst_M'
+[2014.10.12-20.06.27:434][256]LogLinker:Warning: Can't find file for asset '/Game/Textures/T_Burst_M' while loading ../../../../../../Users/Johannes/Documents/Unreal Projects/BtoomUnreal/Content/Particles/Materials/M_Burst.uasset.
+[2014.10.12-20.06.27:434][256]LoadErrors:Error: Error /Game/Particles/Materials/M_Burst : Can't find file for asset. /Game/Textures/T_Burst_M
+[2014.10.12-20.06.27:434][256]LogLinker:Warning: Can't find file '/Game/Textures/T_Burst_M'
+[2014.10.12-20.06.27:435][256]LogLinker:Warning: Can't find file for asset '/Game/Textures/T_Burst_M' while loading ../../../../../../Users/Johannes/Documents/Unreal Projects/BtoomUnreal/Content/Particles/Materials/M_Burst.uasset.
+[2014.10.12-20.06.27:436][256]LogLinker:Warning: Can't find file '/Game/Textures/T_Explosion_SubUV'
+[2014.10.12-20.06.27:436][256]LogLinker:Warning: Can't find file for asset '/Game/Textures/T_Explosion_SubUV' while loading ../../../../../../Users/Johannes/Documents/Unreal Projects/BtoomUnreal/Content/Particles/Materials/M_explosion_subUV.uasset.
+[2014.10.12-20.06.27:436][256]LoadErrors:Error: Error /Game/Particles/Materials/M_explosion_subUV : Can't find file for asset. /Game/Textures/T_Explosion_SubUV
+[2014.10.12-20.06.27:436][256]LogLinker:Warning: Can't find file '/Game/Textures/T_Explosion_SubUV'
+[2014.10.12-20.06.27:436][256]LogLinker:Warning: Can't find file for asset '/Game/Textures/T_Explosion_SubUV' while loading ../../../../../../Users/Johannes/Documents/Unreal Projects/BtoomUnreal/Content/Particles/Materials/M_explosion_subUV.uasset.
+[2014.10.12-20.06.27:440][256]LogLinker:Warning: Can't find file '/Game/Textures/T_Smoke_SubUV'
+[2014.10.12-20.06.27:440][256]LogLinker:Warning: Can't find file for asset '/Game/Textures/T_Smoke_SubUV' while loading ../../../../../../Users/Johannes/Documents/Unreal Projects/BtoomUnreal/Content/Particles/Materials/M_smoke_subUV.uasset.
+[2014.10.12-20.06.27:440][256]LoadErrors:Error: Error /Game/Particles/Materials/M_smoke_subUV : Can't find file for asset. /Game/Textures/T_Smoke_SubUV
+[2014.10.12-20.06.27:440][256]LogLinker:Warning: Can't find file '/Game/Textures/T_Smoke_Tiled_D'
+[2014.10.12-20.06.27:440][256]LogLinker:Warning: Can't find file for asset '/Game/Textures/T_Smoke_Tiled_D' while loading ../../../../../../Users/Johannes/Documents/Unreal Projects/BtoomUnreal/Content/Particles/Materials/M_smoke_subUV.uasset.
+[2014.10.12-20.06.27:440][256]LoadErrors:Error: Error /Game/Particles/Materials/M_smoke_subUV : Can't find file for asset. /Game/Textures/T_Smoke_Tiled_D
+[2014.10.12-20.06.27:440][256]LogLinker:Warning: Can't find file '/Game/Textures/T_Smoke_SubUV'
+[2014.10.12-20.06.27:440][256]LogLinker:Warning: Can't find file for asset '/Game/Textures/T_Smoke_SubUV' while loading ../../../../../../Users/Johannes/Documents/Unreal Projects/BtoomUnreal/Content/Particles/Materials/M_smoke_subUV.uasset.
+[2014.10.12-20.06.27:441][256]LogLinker:Warning: Can't find file '/Game/Textures/T_Smoke_Tiled_D'
+[2014.10.12-20.06.27:441][256]LogLinker:Warning: Can't find file for asset '/Game/Textures/T_Smoke_Tiled_D' while loading ../../../../../../Users/Johannes/Documents/Unreal Projects/BtoomUnreal/Content/Particles/Materials/M_smoke_subUV.uasset.
+[2014.10.12-20.06.27:533][256]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'LookUpRate' for  LookUpRate 
+[2014.10.12-20.06.27:533][256]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'TurnRate' for  TurnRate 
+[2014.10.12-20.06.27:534][256]LogBlueprint:Warning: [compiler] Warning InputAction Event references unknown Action 'Fire' for  Fire 
+[2014.10.12-20.06.27:534][256]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'MoveRight' for  MoveRight 
+[2014.10.12-20.06.27:534][256]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'MoveForward' for  MoveForward 
+[2014.10.12-20.06.27:534][256]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'LookUp' for  LookUp 
+[2014.10.12-20.06.27:535][256]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'Turn' for  Turn 
+[2014.10.12-20.06.27:535][256]LogBlueprint:Warning: [compiler] Warning InputAction Event references unknown Action 'Jump' for  Jump 
+[2014.10.12-20.06.27:537][256]LogBlueprint:Warning: [compiler] Warning [0173.70] Compile of MyCharacter successful, but with 8 Warning(s) [in 7 ms]
+[2014.10.12-20.06.27:548][256]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'LookUpRate' for  LookUpRate 
+[2014.10.12-20.06.27:548][256]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'TurnRate' for  TurnRate 
+[2014.10.12-20.06.27:549][256]LogBlueprint:Warning: [compiler] Warning InputAction Event references unknown Action 'Fire' for  Fire 
+[2014.10.12-20.06.27:549][256]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'MoveRight' for  MoveRight 
+[2014.10.12-20.06.27:549][256]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'MoveForward' for  MoveForward 
+[2014.10.12-20.06.27:549][256]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'LookUp' for  LookUp 
+[2014.10.12-20.06.27:550][256]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'Turn' for  Turn 
+[2014.10.12-20.06.27:550][256]LogBlueprint:Warning: [compiler] Warning InputAction Event references unknown Action 'Jump' for  Jump 
+[2014.10.12-20.06.27:552][256]LogBlueprint:Warning: [compiler] Warning [0173.71] Compile of MyCharacter successful, but with 8 Warning(s) [in 7 ms]
+[2014.10.12-20.06.27:554][256]LogLinker:Warning: Can't find file '/Game/Textures/T_Burst_M'
+[2014.10.12-20.06.27:554][256]LoadErrors: Info Failed to load /Game/Textures/T_Burst_M.T_Burst_M Referenced by MaterialExpressionTextureSample_0 Property /Script/Engine.MaterialExpressionTextureBase:Texture
+[2014.10.12-20.06.27:554][256]LogLinker:Warning: Can't find file for asset '/Game/Textures/T_Burst_M' while loading NULL.
+[2014.10.12-20.06.27:554][256]LogLinker:Warning: Can't find file '/Game/Textures/T_Explosion_SubUV'
+[2014.10.12-20.06.27:554][256]LoadErrors: Info Failed to load /Game/Textures/T_Explosion_SubUV.T_Explosion_SubUV Referenced by MaterialExpressionParticleSubUV_0 Property /Script/Engine.MaterialExpressionTextureBase:Texture
+[2014.10.12-20.06.27:555][256]LogLinker:Warning: Can't find file for asset '/Game/Textures/T_Explosion_SubUV' while loading NULL.
+[2014.10.12-20.06.27:555][256]LogLinker:Warning: Can't find file '/Game/Textures/T_Smoke_SubUV'
+[2014.10.12-20.06.27:555][256]LoadErrors: Info Failed to load /Game/Textures/T_Smoke_SubUV.T_Smoke_SubUV Referenced by MaterialExpressionParticleSubUV_0 Property /Script/Engine.MaterialExpressionTextureBase:Texture
+[2014.10.12-20.06.27:555][256]LogLinker:Warning: Can't find file for asset '/Game/Textures/T_Smoke_SubUV' while loading NULL.
+[2014.10.12-20.06.27:555][256]LogLinker:Warning: Can't find file '/Game/Textures/T_Smoke_Tiled_D'
+[2014.10.12-20.06.27:556][256]LoadErrors: Info Failed to load /Game/Textures/T_Smoke_Tiled_D.T_Smoke_Tiled_D Referenced by MaterialExpressionTextureSample_0 Property /Script/Engine.MaterialExpressionTextureBase:Texture
+[2014.10.12-20.06.27:556][256]LogLinker:Warning: Can't find file for asset '/Game/Textures/T_Smoke_Tiled_D' while loading NULL.
+[2014.10.12-20.06.27:648][256]LogMaterial: Missing cached shader map for material M_Burst, compiling.
+[2014.10.12-20.06.27:648][256]LogMaterial:Warning: Failed to compile Material /Game/Particles/Materials/M_Burst.M_Burst for platform PCD3D_SM5, Default Material will be used in game.
+[2014.10.12-20.06.27:648][256]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2014.10.12-20.06.27:652][256]LogMaterial: Missing cached shader map for material M_explosion_subUV, compiling.
+[2014.10.12-20.06.27:652][256]LogMaterial:Warning: Failed to compile Material /Game/Particles/Materials/M_explosion_subUV.M_explosion_subUV for platform PCD3D_SM5, Default Material will be used in game.
+[2014.10.12-20.06.27:652][256]LogMaterial:Warning: 	(Node ParticleSubUV) Missing ParticleSubUV input texture
+[2014.10.12-20.06.27:669][256]LogMaterial: Missing cached shader map for material M_smoke_subUV, compiling.
+[2014.10.12-20.06.27:670][256]LogMaterial:Warning: Failed to compile Material /Game/Particles/Materials/M_smoke_subUV.M_smoke_subUV for platform PCD3D_SM5, Default Material will be used in game.
+[2014.10.12-20.06.27:670][256]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2014.10.12-20.06.27:670][256]LogMaterial:Warning: 	(Node ParticleSubUV) Missing ParticleSubUV input texture
+[2014.10.12-20.06.30:894][395]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.12-20.06.30:894][395]PIE: New page: PIE session: Untitled_1 (Oct 13, 2014, 12:06:30 AM)
+[2014.10.12-20.06.30:898][395]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003585s)
+[2014.10.12-20.06.30:900][395]LogPlayLevel: PIE: World Init took: (0.001794s)
+[2014.10.12-20.06.30:900][395]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.005730s)
+[2014.10.12-20.06.30:958][395]LogWorld: Game class is 'GameMode'
+[2014.10.12-20.06.30:959][395]LogAIModule: Creating AISystem for world Template_Default
+[2014.10.12-20.06.30:960][395]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 60) at 2014.10.12-22.06.30
+[2014.10.12-20.06.30:961][395]LogWorld: Bringing up level for play took: 0.001630
+[2014.10.12-20.06.30:963][395]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.225
+[2014.10.12-20.06.37:415][770]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2014.10.12-20.06.37:415][770]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0) Not registered. Aborting.
+[2014.10.12-20.06.37:437][770]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000019613CACA0
+[2014.10.12-20.07.13:816][929]LogEditorActor: Deleted Actor: MyCharacter_C
+[2014.10.12-20.07.13:836][929]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2014.10.12-20.07.43:034][558]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.12-20.07.43:034][558]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.12-20.07.43:117][558]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.12-20.07.43:118][558]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.12-20.07.43:118][558]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.12-20.07.43:118][558]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.12-20.07.43:118][558]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.12-20.07.43:118][558]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.12-20.07.43:119][558]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.12-20.07.43:119][558]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.12-20.07.43:119][558]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.12-20.07.43:119][558]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.12-20.07.43:119][558]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.12-20.07.43:119][558]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.12-20.07.43:119][558]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.12-20.07.43:120][558]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.12-20.07.43:120][558]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.12-20.07.43:120][558]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.12-20.08.58:152][909]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.12-20.08.58:173][909]LogPlayLevel: [PIE] Compiling Untitled before PIE...
+[2014.10.12-20.08.58:285][909]LogPlayLevel: PIE:  Blueprint regeneration took 133 ms (1 blueprints)
+[2014.10.12-20.08.58:285][909]PIE: New page: PIE session: Untitled_1 (Oct 13, 2014, 12:08:58 AM)
+[2014.10.12-20.08.58:288][909]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002311s)
+[2014.10.12-20.08.58:289][909]LogPlayLevel: PIE: World Init took: (0.001507s)
+[2014.10.12-20.08.58:289][909]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.004041s)
+[2014.10.12-20.08.58:327][909]LogWorld: Game class is 'GameMode'
+[2014.10.12-20.08.58:330][909]LogAIModule: Creating AISystem for world Template_Default
+[2014.10.12-20.08.58:331][909]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 60) at 2014.10.12-22.08.58
+[2014.10.12-20.08.58:332][909]LogWorld: Bringing up level for play took: 0.002311
+[2014.10.12-20.08.58:334][909]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 1.147
+[2014.10.12-20.08.58:543][909]LogRenderer:Warning: Reallocating scene render targets to support 1296x760.
+[2014.10.12-20.09.00:921][ 40]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000190284DF80
+[2014.10.12-20.09.20:432][184]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.12-20.09.20:435][184]LogPlayLevel: [PIE] Compiling Untitled before PIE...
+[2014.10.12-20.09.20:495][184]LogPlayLevel: PIE:  Blueprint regeneration took 62 ms (1 blueprints)
+[2014.10.12-20.09.20:495][184]PIE: New page: PIE session: Untitled_1 (Oct 13, 2014, 12:09:20 AM)
+[2014.10.12-20.09.20:497][184]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002134s)
+[2014.10.12-20.09.20:498][184]LogPlayLevel: PIE: World Init took: (0.000824s)
+[2014.10.12-20.09.20:498][184]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.003172s)
+[2014.10.12-20.09.20:533][184]LogWorld: Game class is 'GameMode'
+[2014.10.12-20.09.20:535][184]LogAIModule: Creating AISystem for world Template_Default
+[2014.10.12-20.09.20:536][184]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 60) at 2014.10.12-22.09.20
+[2014.10.12-20.09.20:536][184]LogWorld: Bringing up level for play took: 0.000904
+[2014.10.12-20.09.20:538][184]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.65
+[2014.10.12-20.09.23:385][336]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001902891A80
+[2014.10.12-20.09.50:784][944]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Template_Map_Floor)
+[2014.10.12-20.10.14:216][183]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor)
+[2014.10.12-20.14.01:507][189]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2014.10.12-20.14.01:507][189]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2014.10.12-20.14.01:622][189]LogSavePackage: Save=50.695568ms
+[2014.10.12-20.14.01:622][189]LogSavePackage: Moving '../../../../../../Users/Johannes/Documents/Unreal Projects/BtoomUnreal/Saved/Untitled_1_Auto126A8B52D427A5775409C5E87E6598296.tmp' to '../../../../../../Users/Johannes/Documents/Unreal Projects/BtoomUnreal/Saved/Autosaves/Temp/Untitled_1_Auto1.umap'
+[2014.10.12-20.14.01:668][189]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.161
+[2014.10.12-20.14.01:668][189]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.161
+[2014.10.12-20.14.14:179][884]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.12-20.14.14:179][884]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.12-20.14.14:179][884]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.12-20.14.14:179][884]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.12-20.14.14:180][884]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.12-20.14.14:180][884]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.12-20.14.14:180][884]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.12-20.14.14:180][884]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.12-20.14.14:180][884]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.12-20.14.14:180][884]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.12-20.15.04:258][764]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.12-20.15.04:261][764]LogPlayLevel: [PIE] Compiling Untitled before PIE...
+[2014.10.12-20.15.04:329][764]LogPlayLevel: PIE:  Blueprint regeneration took 71 ms (1 blueprints)
+[2014.10.12-20.15.04:329][764]PIE: New page: PIE session: Untitled_1 (Oct 13, 2014, 12:15:04 AM)
+[2014.10.12-20.15.04:332][764]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002111s)
+[2014.10.12-20.15.04:333][764]LogPlayLevel: PIE: World Init took: (0.001210s)
+[2014.10.12-20.15.04:333][764]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.003540s)
+[2014.10.12-20.15.04:366][764]LogWorld: Game class is 'GameMode'
+[2014.10.12-20.15.04:368][764]LogAIModule: Creating AISystem for world Template_Default
+[2014.10.12-20.15.04:369][764]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 60) at 2014.10.12-22.15.04
+[2014.10.12-20.15.04:369][764]LogWorld: Bringing up level for play took: 0.001294
+[2014.10.12-20.15.04:370][764]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2014.10.12-20.15.04:373][764]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.815
+[2014.10.12-20.15.22:519][829]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000190011E0C0
+[2014.10.12-20.15.25:588][995]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor)
+[2014.10.12-20.15.29:587][224]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.12-20.15.29:590][224]LogPlayLevel: [PIE] Compiling Untitled before PIE...
+[2014.10.12-20.15.29:653][224]LogPlayLevel: PIE:  Blueprint regeneration took 66 ms (1 blueprints)
+[2014.10.12-20.15.29:654][224]PIE: New page: PIE session: Untitled_1 (Oct 13, 2014, 12:15:29 AM)
+[2014.10.12-20.15.29:656][224]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001833s)
+[2014.10.12-20.15.29:656][224]LogPlayLevel: PIE: World Init took: (0.000717s)
+[2014.10.12-20.15.29:656][224]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.002734s)
+[2014.10.12-20.15.29:684][224]LogWorld: Game class is 'GameMode'
+[2014.10.12-20.15.29:685][224]LogAIModule: Creating AISystem for world Template_Default
+[2014.10.12-20.15.29:686][224]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 60) at 2014.10.12-22.15.29
+[2014.10.12-20.15.29:686][224]LogWorld: Bringing up level for play took: 0.000860
+[2014.10.12-20.15.29:687][224]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2014.10.12-20.15.29:687][224]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.499
+[2014.10.12-20.15.48:355][339]Cmd: ToggleSpeaking true 
+[2014.10.12-20.15.48:355][339]Cmd: OnRelease ToggleSpeaking false
+[2014.10.12-20.15.48:588][353]Cmd: ToggleSpeaking false
+[2014.10.12-20.15.56:937][848]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000196126C680
+[2014.10.12-20.16.34:565][ 37]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.12-20.16.42:561][466]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.12-20.16.42:564][466]LogPlayLevel: [PIE] Compiling Untitled before PIE...
+[2014.10.12-20.16.42:612][466]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2014.10.12-20.16.42:612][466]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_2) Not registered. Aborting.
+[2014.10.12-20.16.42:634][466]LogPlayLevel: PIE:  Blueprint regeneration took 73 ms (1 blueprints)
+[2014.10.12-20.16.42:634][466]PIE: New page: PIE session: Untitled_1 (Oct 13, 2014, 12:16:42 AM)
+[2014.10.12-20.16.42:636][466]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002003s)
+[2014.10.12-20.16.42:637][466]LogPlayLevel: PIE: World Init took: (0.000722s)
+[2014.10.12-20.16.42:637][466]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.002903s)
+[2014.10.12-20.16.42:671][466]LogWorld: Game class is 'GameMode'
+[2014.10.12-20.16.42:673][466]LogAIModule: Creating AISystem for world Template_Default
+[2014.10.12-20.16.42:673][466]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 60) at 2014.10.12-22.16.42
+[2014.10.12-20.16.42:674][466]LogWorld: Bringing up level for play took: 0.000943
+[2014.10.12-20.16.42:675][466]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2014.10.12-20.16.42:675][466]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2014.10.12-20.16.42:677][466]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.51
+[2014.10.12-20.16.46:885][698]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000019083DB1A0
+[2014.10.12-20.18.41:007][287]BlueprintLog: New page: Compile Untitled
+[2014.10.12-20.18.41:079][287]BlueprintEditorCompileResults: Info [0907.17] Compile of Untitled successful! [in 0 ms]
+[2014.10.12-20.18.45:764][558]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2014.10.12-20.19.31:785][171]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.12-20.24.16:016][594]BlueprintLog: New page: Compile MyPawn
+[2014.10.12-20.24.16:086][594]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_3) Not registered. Aborting.
+[2014.10.12-20.24.16:086][594]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2014.10.12-20.24.16:137][594]BlueprintEditorCompileResults: Info [1242.18] Compile of MyPawn successful! [in 0 ms]
+[2014.10.12-20.24.42:363][125]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.12-20.24.42:366][125]LogPlayLevel: [PIE] Compiling Untitled before PIE...
+[2014.10.12-20.24.42:420][125]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2014.10.12-20.24.42:420][125]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_4) Not registered. Aborting.
+[2014.10.12-20.24.42:447][125]LogPlayLevel: PIE:  Blueprint regeneration took 84 ms (1 blueprints)
+[2014.10.12-20.24.42:448][125]PIE: New page: PIE session: Untitled_1 (Oct 13, 2014, 12:24:42 AM)
+[2014.10.12-20.24.42:449][125]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001784s)
+[2014.10.12-20.24.42:450][125]LogPlayLevel: PIE: World Init took: (0.000877s)
+[2014.10.12-20.24.42:451][125]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.002835s)
+[2014.10.12-20.24.42:482][125]LogWorld: Game class is 'GameMode'
+[2014.10.12-20.24.42:483][125]LogAIModule: Creating AISystem for world Template_Default
+[2014.10.12-20.24.42:484][125]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 60) at 2014.10.12-22.24.42
+[2014.10.12-20.24.42:484][125]LogWorld: Bringing up level for play took: 0.000868
+[2014.10.12-20.24.42:485][125]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.702
+[2014.10.12-20.24.48:310][464]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000195F11DDA0
+[2014.10.12-20.24.58:382][986]LogSavePackage: Save=41.074402ms
+[2014.10.12-20.24.58:383][986]LogSavePackage: Moving '../../../../../../Users/Johannes/Documents/Unreal Projects/BtoomUnreal/Saved/Untitled_1_Auto292FD66FB4FA987A8A56EEC8812FF3C21.tmp' to '../../../../../../Users/Johannes/Documents/Unreal Projects/BtoomUnreal/Saved/Autosaves/Temp/Untitled_1_Auto2.umap'
+[2014.10.12-20.24.58:402][986]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.126
+[2014.10.12-20.24.58:402][986]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.126
+[2014.10.12-20.24.58:565][986]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/MyPawn] ([1] browsable assets)...
+[2014.10.12-20.24.58:594][986]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyPawn]
+[2014.10.12-20.24.58:701][986]LogSavePackage: Save=37.368805ms
+[2014.10.12-20.24.58:701][986]LogSavePackage: Moving '../../../../../../Users/Johannes/Documents/Unreal Projects/BtoomUnreal/Saved/MyPawn_Auto26BAB8BA7418DBCD47D27E29DCB715853.tmp' to '../../../../../../Users/Johannes/Documents/Unreal Projects/BtoomUnreal/Saved/Autosaves/Game/Blueprints/MyPawn_Auto2.uasset'
+[2014.10.12-20.24.58:717][986]LogFileHelpers: Auto-saving content packages took 0.315
+[2014.10.12-20.44.44:517][ 89]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2014.10.12-20.44.44:517][ 89]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_5) Not registered. Aborting.
+[2014.10.12-20.44.49:429][ 89]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SKEL_MyPawn_C' or package '/Game/Blueprints/MyPawn'.
+[2014.10.12-20.44.49:504][ 89]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000190F64B6A0
+[2014.10.12-20.44.52:160][193]BlueprintLog:Warning: Warning Blueprint MyProjectile has been migrated and requires re-saving to avoid import errors
+[2014.10.12-20.44.54:287][250]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2014.10.12-20.44.54:287][250]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_6) Not registered. Aborting.
+[2014.10.12-20.44.54:287][250]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_7) Not registered. Aborting.
+[2014.10.12-20.44.54:405][250]LogSavePackage: Save=40.410957ms
+[2014.10.12-20.44.54:405][250]LogSavePackage: Moving '../../../../../../Users/Johannes/Documents/Unreal Projects/BtoomUnreal/Saved/Untitled_1_Auto34F242EEA46DB5B579FDA8681963FC515.tmp' to '../../../../../../Users/Johannes/Documents/Unreal Projects/BtoomUnreal/Saved/Autosaves/Temp/Untitled_1_Auto3.umap'
+[2014.10.12-20.44.54:432][250]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.145
+[2014.10.12-20.44.54:432][250]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.145
+[2014.10.12-20.49.26:072][141]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.10.12-20.49.30:645][405]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.10.12-20.49.31:818][406]Cmd: UpdateLandscapeSetup
+[2014.10.12-20.49.32:806][461]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.10.12-20.49.33:884][515]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.10.12-20.49.33:886][515]LogLinker:Warning: Can't find file '/Game/Textures/crosshair'
+[2014.10.12-20.49.33:887][515]LogLinker:Warning: Can't find file for asset '/Game/Textures/crosshair' while loading ../../../../../../Users/Johannes/Documents/Unreal Projects/BtoomUnreal/Content/Blueprints/MyHUD.uasset.
+[2014.10.12-20.49.33:887][515]LoadErrors:Error: Error /Game/Blueprints/MyHUD : Can't find file for asset. /Game/Textures/crosshair
+[2014.10.12-20.49.33:887][515]LogLinker:Warning: Can't find file '/Game/Textures/crosshair'
+[2014.10.12-20.49.33:887][515]LogLinker:Warning: Can't find file for asset '/Game/Textures/crosshair' while loading ../../../../../../Users/Johannes/Documents/Unreal Projects/BtoomUnreal/Content/Blueprints/MyHUD.uasset.
+[2014.10.12-20.49.33:889][515]LogLinker:Warning: Can't find file '/Game/Textures/crosshair'
+[2014.10.12-20.49.33:889][515]LoadErrors: Info Failed to load /Game/Textures/crosshair.crosshair Referenced by EdGraphPin_3965 Property /Script/Engine.EdGraphPin:DefaultObject
+[2014.10.12-20.49.33:889][515]LogLinker:Warning: Can't find file for asset '/Game/Textures/crosshair' while loading ../../../../../../Users/Johannes/Documents/Unreal Projects/BtoomUnreal/Content/Blueprints/MyGame.uasset.
+[2014.10.12-20.49.33:890][515]LoadErrors:Error: Error /Game/Blueprints/MyGame : Can't find file for asset. /Game/Textures/crosshair
+[2014.10.12-20.49.33:914][515]BlueprintLog:Warning: Warning Blueprint MyHUD has been migrated and requires re-saving to avoid import errors
+[2014.10.12-20.49.33:914][515]BlueprintLog:Warning: Warning Blueprint MyGame has been migrated and requires re-saving to avoid import errors
+[2014.10.12-20.49.33:940][516]Cmd: UpdateLandscapeSetup
+[2014.10.12-20.49.36:922][676]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.12-20.49.36:922][676]LogPlayLevel: [PIE] Compiling Untitled before PIE...
+[2014.10.12-20.49.37:021][676]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2014.10.12-20.49.37:021][676]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_8) Not registered. Aborting.
+[2014.10.12-20.49.37:021][676]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_9) Not registered. Aborting.
+[2014.10.12-20.49.37:072][676]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000191013B420
+[2014.10.12-20.49.37:104][676]LogPlayLevel: PIE:  Blueprint regeneration took 182 ms (1 blueprints)
+[2014.10.12-20.49.37:105][676]PIE: New page: PIE session: Untitled_1 (Oct 13, 2014, 12:49:37 AM)
+[2014.10.12-20.49.37:107][676]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001895s)
+[2014.10.12-20.49.37:108][676]LogPlayLevel: PIE: World Init took: (0.001416s)
+[2014.10.12-20.49.37:108][676]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.003477s)
+[2014.10.12-20.49.37:137][676]LogWorld: Game class is 'MyGame_C'
+[2014.10.12-20.49.37:139][676]LogAIModule: Creating AISystem for world Template_Default
+[2014.10.12-20.49.37:139][676]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 60) at 2014.10.12-22.49.37
+[2014.10.12-20.49.37:140][676]LogWorld: Bringing up level for play took: 0.000935
+[2014.10.12-20.49.37:141][676]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.047
+[2014.10.12-20.49.43:846][ 65]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001916BF5C60
+[2014.10.12-20.49.44:911][121]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.12-20.49.44:911][121]LogPlayLevel: [PIE] Compiling Untitled before PIE...
+[2014.10.12-20.49.45:007][121]LogPlayLevel: PIE:  Blueprint regeneration took 95 ms (1 blueprints)
+[2014.10.12-20.49.45:007][121]PIE: New page: PIE session: Untitled_1 (Oct 13, 2014, 12:49:45 AM)
+[2014.10.12-20.49.45:009][121]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002014s)
+[2014.10.12-20.49.45:010][121]LogPlayLevel: PIE: World Init took: (0.000847s)
+[2014.10.12-20.49.45:010][121]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.003068s)
+[2014.10.12-20.49.45:042][121]LogWorld: Game class is 'MyGame_C'
+[2014.10.12-20.49.45:043][121]LogAIModule: Creating AISystem for world Template_Default
+[2014.10.12-20.49.45:044][121]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 60) at 2014.10.12-22.49.45
+[2014.10.12-20.49.45:044][121]LogWorld: Bringing up level for play took: 0.000887
+[2014.10.12-20.49.45:045][121]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.142
+[2014.10.12-20.50.03:400][204]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001900F85300
+[2014.10.12-20.50.06:449][368]BlueprintLog: New page: Compile MyCharacter
+[2014.10.12-20.50.06:474][368]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'LookUpRate' for  LookUpRate 
+[2014.10.12-20.50.06:475][368]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'TurnRate' for  TurnRate 
+[2014.10.12-20.50.06:475][368]LogBlueprint:Warning: [compiler] Warning InputAction Event references unknown Action 'Fire' for  Fire 
+[2014.10.12-20.50.06:475][368]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'MoveRight' for  MoveRight 
+[2014.10.12-20.50.06:475][368]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'MoveForward' for  MoveForward 
+[2014.10.12-20.50.06:476][368]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'LookUp' for  LookUp 
+[2014.10.12-20.50.06:476][368]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'Turn' for  Turn 
+[2014.10.12-20.50.06:476][368]LogBlueprint:Warning: [compiler] Warning InputAction Event references unknown Action 'Jump' for  Jump 
+[2014.10.12-20.50.06:507][368]LogBlueprint:Warning: [compiler] Warning [2792.67] Compile of MyCharacter successful, but with 8 Warning(s) [in 36 ms]
+[2014.10.12-20.50.06:633][368]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'LookUpRate' for  LookUpRate 
+[2014.10.12-20.50.06:633][368]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'TurnRate' for  TurnRate 
+[2014.10.12-20.50.06:633][368]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'Fire' for  Fire 
+[2014.10.12-20.50.06:633][368]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'MoveRight' for  MoveRight 
+[2014.10.12-20.50.06:633][368]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'MoveForward' for  MoveForward 
+[2014.10.12-20.50.06:633][368]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'LookUp' for  LookUp 
+[2014.10.12-20.50.06:633][368]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'Turn' for  Turn 
+[2014.10.12-20.50.06:633][368]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'Jump' for  Jump 
+[2014.10.12-20.50.06:633][368]BlueprintEditorCompileResults:Warning: Warning [2792.67] Compile of MyCharacter successful, but with 8 Warning(s) [in 36 ms]
+[2014.10.12-20.50.38:363][ 17]LogEditorTransaction: Undo Create Pin Link
+[2014.10.12-20.50.38:932][ 25]LogEditorTransaction: Undo Move Node
+[2014.10.12-20.50.39:660][ 54]LogEditorTransaction: Undo Add Node
+[2014.10.12-20.50.40:562][ 99]LogEditorTransaction: Undo Delete current selection
+[2014.10.12-20.55.07:422][617]BlueprintLog: New page: Compile MyCharacter
+[2014.10.12-20.55.07:449][617]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'LookUpRate' for  LookUpRate 
+[2014.10.12-20.55.07:450][617]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'TurnRate' for  TurnRate 
+[2014.10.12-20.55.07:450][617]LogBlueprint:Warning: [compiler] Warning InputAction Event references unknown Action 'Fire' for  Fire 
+[2014.10.12-20.55.07:450][617]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'MoveRight' for  MoveRight 
+[2014.10.12-20.55.07:451][617]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'LookUp' for  LookUp 
+[2014.10.12-20.55.07:451][617]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'Turn' for  Turn 
+[2014.10.12-20.55.07:451][617]LogBlueprint:Warning: [compiler] Warning InputAction Event references unknown Action 'Jump' for  Jump 
+[2014.10.12-20.55.07:485][617]LogBlueprint:Warning: [compiler] Warning [3093.64] Compile of MyCharacter successful, but with 7 Warning(s) [in 39 ms]
+[2014.10.12-20.55.07:624][617]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'LookUpRate' for  LookUpRate 
+[2014.10.12-20.55.07:624][617]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'TurnRate' for  TurnRate 
+[2014.10.12-20.55.07:624][617]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'Fire' for  Fire 
+[2014.10.12-20.55.07:624][617]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'MoveRight' for  MoveRight 
+[2014.10.12-20.55.07:624][617]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'LookUp' for  LookUp 
+[2014.10.12-20.55.07:624][617]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'Turn' for  Turn 
+[2014.10.12-20.55.07:625][617]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'Jump' for  Jump 
+[2014.10.12-20.55.07:625][617]BlueprintEditorCompileResults:Warning: Warning [3093.64] Compile of MyCharacter successful, but with 7 Warning(s) [in 39 ms]
+[2014.10.12-20.55.20:231][104]LogSavePackage: Save=46.717369ms
+[2014.10.12-20.55.20:231][104]LogSavePackage: Moving '../../../../../../Users/Johannes/Documents/Unreal Projects/BtoomUnreal/Saved/Untitled_1_Auto4DBEECFFF4F8FFFDB415641B7D0D1BDF1.tmp' to '../../../../../../Users/Johannes/Documents/Unreal Projects/BtoomUnreal/Saved/Autosaves/Temp/Untitled_1_Auto4.umap'
+[2014.10.12-20.55.20:255][104]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.164
+[2014.10.12-20.55.20:255][104]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.164
+[2014.10.12-20.55.20:267][104]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/MyCharacter] ([1] browsable assets)...
+[2014.10.12-20.55.20:317][104]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/MyCharacter.MyCharacter]
+[2014.10.12-20.55.20:317][104]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyCharacter]
+[2014.10.12-20.55.20:789][104]LogSavePackage: Save=414.044403ms
+[2014.10.12-20.55.20:789][104]LogSavePackage: Moving '../../../../../../Users/Johannes/Documents/Unreal Projects/BtoomUnreal/Saved/MyCharacter_Auto4AEBB36294DFF612B3D928A85F675C2D1.tmp' to '../../../../../../Users/Johannes/Documents/Unreal Projects/BtoomUnreal/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto4.uasset'
+[2014.10.12-20.55.20:815][104]LogFileHelpers: Auto-saving content packages took 0.559
+[2014.10.12-20.58.27:463][363]BlueprintLog: New page: Compile MyCharacter
+[2014.10.12-20.58.27:491][363]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'LookUpRate' for  LookUpRate 
+[2014.10.12-20.58.27:492][363]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'TurnRate' for  TurnRate 
+[2014.10.12-20.58.27:492][363]LogBlueprint:Warning: [compiler] Warning InputAction Event references unknown Action 'Fire' for  Fire 
+[2014.10.12-20.58.27:492][363]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'LookUp' for  LookUp 
+[2014.10.12-20.58.27:493][363]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'Turn' for  Turn 
+[2014.10.12-20.58.27:493][363]LogBlueprint:Warning: [compiler] Warning InputAction Event references unknown Action 'Jump' for  Jump 
+[2014.10.12-20.58.27:526][363]LogBlueprint:Warning: [compiler] Warning [3293.68] Compile of MyCharacter successful, but with 6 Warning(s) [in 39 ms]
+[2014.10.12-20.58.27:588][363]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2014.10.12-20.58.27:662][363]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'LookUpRate' for  LookUpRate 
+[2014.10.12-20.58.27:662][363]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'TurnRate' for  TurnRate 
+[2014.10.12-20.58.27:663][363]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'Fire' for  Fire 
+[2014.10.12-20.58.27:663][363]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'LookUp' for  LookUp 
+[2014.10.12-20.58.27:663][363]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'Turn' for  Turn 
+[2014.10.12-20.58.27:663][363]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'Jump' for  Jump 
+[2014.10.12-20.58.27:663][363]BlueprintEditorCompileResults:Warning: Warning [3293.68] Compile of MyCharacter successful, but with 6 Warning(s) [in 39 ms]
+[2014.10.12-21.03.07:791][568]BlueprintLog: New page: Compile MyCharacter
+[2014.10.12-21.03.07:818][568]LogBlueprint:Warning: [compiler] Warning InputAction Event references unknown Action 'Fire' for  Fire 
+[2014.10.12-21.03.07:819][568]LogBlueprint:Warning: [compiler] Warning InputAction Event references unknown Action 'Jump' for  Jump 
+[2014.10.12-21.03.07:852][568]LogBlueprint:Warning: [compiler] Warning [3574.01] Compile of MyCharacter successful, but with 2 Warning(s) [in 38 ms]
+[2014.10.12-21.03.07:977][568]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'Fire' for  Fire 
+[2014.10.12-21.03.07:977][568]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'Jump' for  Jump 
+[2014.10.12-21.03.07:977][568]BlueprintEditorCompileResults:Warning: Warning [3574.01] Compile of MyCharacter successful, but with 2 Warning(s) [in 38 ms]
+[2014.10.12-21.05.16:682][ 43]BlueprintLog: New page: Compile MyCharacter
+[2014.10.12-21.05.16:710][ 43]LogBlueprint:Warning: [compiler] Warning InputAction Event references unknown Action 'Fire' for  Fire 
+[2014.10.12-21.05.16:743][ 43]LogBlueprint:Warning: [compiler] Warning [3702.90] Compile of MyCharacter successful, but with 1 Warning(s) [in 39 ms]
+[2014.10.12-21.05.16:895][ 43]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'Fire' for  Fire 
+[2014.10.12-21.05.16:896][ 43]BlueprintEditorCompileResults:Warning: Warning [3702.90] Compile of MyCharacter successful, but with 1 Warning(s) [in 39 ms]
+[2014.10.12-21.05.21:286][182]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.045
+[2014.10.12-21.05.21:300][182]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/MyCharacter] ([1] browsable assets)...
+[2014.10.12-21.05.21:351][182]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/MyCharacter.MyCharacter]
+[2014.10.12-21.05.21:351][182]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyCharacter]
+[2014.10.12-21.05.21:827][182]LogSavePackage: Save=422.759491ms
+[2014.10.12-21.05.21:827][182]LogSavePackage: Moving '../../../../../../Users/Johannes/Documents/Unreal Projects/BtoomUnreal/Saved/MyCharacter_Auto5F0B21B6B405CB24FA5C003A2EEFAB702.tmp' to '../../../../../../Users/Johannes/Documents/Unreal Projects/BtoomUnreal/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto5.uasset'
+[2014.10.12-21.05.21:850][182]LogFileHelpers: Auto-saving content packages took 0.564
+[2014.10.12-21.05.53:870][469]BlueprintLog: New page: Compile MyCharacter
+[2014.10.12-21.05.53:903][469]LogBlueprint:Warning: [compiler] Warning InputAction Event references unknown Action 'Fire' for  Fire 
+[2014.10.12-21.05.53:939][469]LogBlueprint:Warning: [compiler] Warning [3740.10] Compile of MyCharacter successful, but with 1 Warning(s) [in 40 ms]
+[2014.10.12-21.05.53:998][469]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2014.10.12-21.05.54:079][469]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'Fire' for  Fire 
+[2014.10.12-21.05.54:079][469]BlueprintEditorCompileResults:Warning: Warning [3740.10] Compile of MyCharacter successful, but with 1 Warning(s) [in 40 ms]
+[2014.10.12-21.06.33:415][696]BlueprintLog: New page: Compile MyCharacter
+[2014.10.12-21.06.33:605][696]BlueprintEditorCompileResults: Info [3779.63] Compile of MyCharacter successful! [in 36 ms]
+[2014.10.12-21.06.41:572][121]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.12-21.06.41:572][121]LogPlayLevel: [PIE] Compiling Untitled before PIE...
+[2014.10.12-21.06.41:623][121]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2014.10.12-21.06.41:659][121]LogPlayLevel: PIE:  Blueprint regeneration took 87 ms (1 blueprints)
+[2014.10.12-21.06.41:660][121]PIE: New page: PIE session: Untitled_1 (Oct 13, 2014, 1:06:41 AM)
+[2014.10.12-21.06.41:662][121]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001838s)
+[2014.10.12-21.06.41:663][121]LogPlayLevel: PIE: World Init took: (0.000780s)
+[2014.10.12-21.06.41:663][121]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.002857s)
+[2014.10.12-21.06.41:696][121]LogWorld: Game class is 'MyGame_C'
+[2014.10.12-21.06.41:697][121]LogAIModule: Creating AISystem for world Template_Default
+[2014.10.12-21.06.41:698][121]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 60) at 2014.10.12-23.06.41
+[2014.10.12-21.06.41:699][121]LogWorld: Bringing up level for play took: 0.001194
+[2014.10.12-21.06.41:700][121]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.513
+[2014.10.12-21.06.51:179][652]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001920D2CF40
+[2014.10.12-21.07.27:302][715]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.12-21.07.27:303][715]LogPlayLevel: [PIE] Compiling Untitled before PIE...
+[2014.10.12-21.07.27:404][715]LogPlayLevel: PIE:  Blueprint regeneration took 101 ms (1 blueprints)
+[2014.10.12-21.07.27:404][715]PIE: New page: PIE session: Untitled_1 (Oct 13, 2014, 1:07:27 AM)
+[2014.10.12-21.07.27:406][715]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002149s)
+[2014.10.12-21.07.27:407][715]LogPlayLevel: PIE: World Init took: (0.000703s)
+[2014.10.12-21.07.27:407][715]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.003048s)
+[2014.10.12-21.07.27:447][715]LogWorld: Game class is 'MyGame_C'
+[2014.10.12-21.07.27:448][715]LogAIModule: Creating AISystem for world Template_Default
+[2014.10.12-21.07.27:450][715]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 60) at 2014.10.12-23.07.27
+[2014.10.12-21.07.27:451][715]LogWorld: Bringing up level for play took: 0.002297
+[2014.10.12-21.07.27:455][715]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.268
+[2014.10.12-21.07.31:349][882]LogRenderer:Warning: Reallocating scene render targets to support 1536x808.
+[2014.10.12-21.07.33:058][951]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000191EA25800
+[2014.10.12-21.07.34:059][  4]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.12-21.07.34:059][  4]LogPlayLevel: [PIE] Compiling Untitled before PIE...
+[2014.10.12-21.07.34:150][  4]LogPlayLevel: PIE:  Blueprint regeneration took 91 ms (1 blueprints)
+[2014.10.12-21.07.34:150][  4]PIE: New page: PIE session: Untitled_1 (Oct 13, 2014, 1:07:34 AM)
+[2014.10.12-21.07.34:152][  4]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001841s)
+[2014.10.12-21.07.34:153][  4]LogPlayLevel: PIE: World Init took: (0.001368s)
+[2014.10.12-21.07.34:154][  4]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.003403s)
+[2014.10.12-21.07.34:193][  4]LogWorld: Game class is 'MyGame_C'
+[2014.10.12-21.07.34:196][  4]LogAIModule: Creating AISystem for world Template_Default
+[2014.10.12-21.07.34:197][  4]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 60) at 2014.10.12-23.07.34
+[2014.10.12-21.07.34:197][  4]LogWorld: Bringing up level for play took: 0.000986
+[2014.10.12-21.07.34:200][  4]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 1.013
+[2014.10.12-21.07.44:752][462]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001920D2DF80
+[2014.10.12-21.08.04:101][582]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.12-21.08.04:101][582]Aligned camera to fit all selected actors.
+[2014.10.12-21.08.05:741][678]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor)
+[2014.10.12-21.08.14:093][169]Cmd: TRANSACTION UNDO
+[2014.10.12-21.08.14:093][169]LogEditorTransaction: Undo Scale Actors
+[2014.10.12-21.08.16:213][267]Cmd: TRANSACTION UNDO
+[2014.10.12-21.08.16:213][267]LogEditorTransaction: Undo Scale Actors
+[2014.10.12-21.08.16:266][267]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2014.10.12-21.08.26:791][884]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.12-21.08.26:825][884]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2014.10.12-21.08.26:825][884]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2014.10.12-21.08.26:973][884]LogPlayLevel: [PIE] Compiling Untitled before PIE...
+[2014.10.12-21.08.27:067][884]LogPlayLevel: PIE:  Blueprint regeneration took 274 ms (2 blueprints)
+[2014.10.12-21.08.27:067][884]PIE: New page: PIE session: Untitled_1 (Oct 13, 2014, 1:08:27 AM)
+[2014.10.12-21.08.27:069][884]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002295s)
+[2014.10.12-21.08.27:071][884]LogPlayLevel: PIE: World Init took: (0.001856s)
+[2014.10.12-21.08.27:071][884]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.004351s)
+[2014.10.12-21.08.27:099][884]LogWorld: Game class is 'MyGame_C'
+[2014.10.12-21.08.27:100][884]LogAIModule: Creating AISystem for world Template_Default
+[2014.10.12-21.08.27:101][884]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 60) at 2014.10.12-23.08.27
+[2014.10.12-21.08.27:101][884]LogWorld: Bringing up level for play took: 0.000918
+[2014.10.12-21.08.27:102][884]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.086
+[2014.10.12-21.08.37:313][470]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2014.10.12-21.08.37:352][470]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000190C808C20
+[2014.10.12-21.09.19:702][930]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2014.10.12-21.10.37:032][396]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props'
+[2014.10.12-21.10.38:631][490]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles'
+[2014.10.12-21.10.47:889][  5]LogLinker:Warning: Can't find file '/Game/Textures/T_Spark_Core'
+[2014.10.12-21.10.47:889][  5]LogLinker:Warning: Can't find file for asset '/Game/Textures/T_Spark_Core' while loading ../../../../../../Users/Johannes/Documents/Unreal Projects/BtoomUnreal/Content/Particles/Materials/M_Spark.uasset.
+[2014.10.12-21.10.47:889][  5]LoadErrors:Error: Error /Game/Particles/Materials/M_Spark : Can't find file for asset. /Game/Textures/T_Spark_Core
+[2014.10.12-21.10.47:889][  5]LogLinker:Warning: Can't find file '/Game/Textures/T_Spark_Core'
+[2014.10.12-21.10.47:889][  5]LogLinker:Warning: Can't find file for asset '/Game/Textures/T_Spark_Core' while loading ../../../../../../Users/Johannes/Documents/Unreal Projects/BtoomUnreal/Content/Particles/Materials/M_Spark.uasset.
+[2014.10.12-21.10.47:892][  5]LogLinker:Warning: Can't find file '/Game/Textures/T_Spark_Core'
+[2014.10.12-21.10.47:893][  5]LoadErrors: Info Failed to load /Game/Textures/T_Spark_Core.T_Spark_Core Referenced by MaterialExpressionTextureSample_1 Property /Script/Engine.MaterialExpressionTextureBase:Texture
+[2014.10.12-21.10.47:893][  5]LogLinker:Warning: Can't find file for asset '/Game/Textures/T_Spark_Core' while loading NULL.
+[2014.10.12-21.10.48:017][  5]LogMaterial: Missing cached shader map for material M_Spark, compiling.
+[2014.10.12-21.10.48:018][  5]LogMaterial:Warning: Failed to compile Material /Game/Particles/Materials/M_Spark.M_Spark for platform PCD3D_SM5, Default Material will be used in game.
+[2014.10.12-21.10.48:018][  5]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2014.10.12-21.11.25:502][973]BlueprintLog: New page: Compile Blueprint_Effect_Explosion_Child
+[2014.10.12-21.11.25:600][973]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2014.10.12-21.11.25:600][973]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_10) Not registered. Aborting.
+[2014.10.12-21.11.25:600][973]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_11) Not registered. Aborting.
+[2014.10.12-21.11.25:660][973]BlueprintEditorCompileResults: Info [4071.68] Compile of Blueprint_Effect_Explosion_Child successful! [in 4 ms]
+[2014.10.12-21.11.27:850][ 72]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.12-21.11.27:850][ 72]LogPlayLevel: [PIE] Compiling Untitled before PIE...
+[2014.10.12-21.11.27:942][ 72]LogPlayLevel: PIE:  Blueprint regeneration took 92 ms (1 blueprints)
+[2014.10.12-21.11.27:942][ 72]PIE: New page: PIE session: Untitled_1 (Oct 13, 2014, 1:11:27 AM)
+[2014.10.12-21.11.27:944][ 72]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002246s)
+[2014.10.12-21.11.27:945][ 72]LogPlayLevel: PIE: World Init took: (0.001037s)
+[2014.10.12-21.11.27:946][ 72]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.003463s)
+[2014.10.12-21.11.27:973][ 72]LogWorld: Game class is 'MyGame_C'
+[2014.10.12-21.11.27:975][ 72]LogAIModule: Creating AISystem for world Template_Default
+[2014.10.12-21.11.27:976][ 72]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 60) at 2014.10.12-23.11.27
+[2014.10.12-21.11.27:976][ 72]LogWorld: Bringing up level for play took: 0.001000
+[2014.10.12-21.11.27:977][ 72]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.79
+[2014.10.12-21.11.32:956][333]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000192649A2A0
+[2014.10.12-21.11.38:164][599]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor)
+[2014.10.12-21.11.39:068][650]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.12-21.11.39:069][650]LogPlayLevel: [PIE] Compiling Untitled before PIE...
+[2014.10.12-21.11.39:160][650]LogPlayLevel: PIE:  Blueprint regeneration took 92 ms (1 blueprints)
+[2014.10.12-21.11.39:160][650]PIE: New page: PIE session: Untitled_1 (Oct 13, 2014, 1:11:39 AM)
+[2014.10.12-21.11.39:162][650]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001623s)
+[2014.10.12-21.11.39:163][650]LogPlayLevel: PIE: World Init took: (0.001096s)
+[2014.10.12-21.11.39:163][650]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.002920s)
+[2014.10.12-21.11.39:199][650]LogWorld: Game class is 'MyGame_C'
+[2014.10.12-21.11.39:200][650]LogAIModule: Creating AISystem for world Template_Default
+[2014.10.12-21.11.39:201][650]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 60) at 2014.10.12-23.11.39
+[2014.10.12-21.11.39:201][650]LogWorld: Bringing up level for play took: 0.001004
+[2014.10.12-21.11.39:203][650]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.015
+[2014.10.12-21.12.06:100][245]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001926498400
+[2014.10.12-21.12.08:849][394]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.12-21.12.08:850][394]Aligned camera to fit all selected actors.
+[2014.10.12-21.12.13:158][648]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.12-21.12.13:158][648]Aligned camera to fit all selected actors.
+[2014.10.12-21.12.23:004][231]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character'
+[2014.10.12-21.12.41:525][164]BlueprintLog: New page: Compile Blueprint_Effect_Explosion_Child
+[2014.10.12-21.12.41:637][164]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000192649B6A0
+[2014.10.12-21.12.41:637][164]BlueprintEditorCompileResults: Info [4147.70] Compile of Blueprint_Effect_Explosion_Child successful! [in 2 ms]
+[2014.10.12-21.13.03:071][146]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Cracker" FILE="../../../../../../Users/Johannes/Documents/Unreal Projects/BtoomUnreal/Content/Character/Cracker.uasset" SILENT=true
+[2014.10.12-21.13.03:556][146]LogSavePackage: Save=475.998810ms
+[2014.10.12-21.13.03:556][146]LogSavePackage: Moving '../../../../../../Users/Johannes/Documents/Unreal Projects/BtoomUnreal/Saved/CrackerFF021B904B2C5340B3B09992AA435FF1.tmp' to '../../../../../../Users/Johannes/Documents/Unreal Projects/BtoomUnreal/Content/Character/Cracker.uasset'
+[2014.10.12-21.13.03:804][146]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CrackerBomb" FILE="../../../../../../Users/Johannes/Documents/Unreal Projects/BtoomUnreal/Content/Blueprints/CrackerBomb.uasset" SILENT=true
+[2014.10.12-21.13.04:385][146]LogSavePackage: Save=565.010315ms
+[2014.10.12-21.13.04:385][146]LogSavePackage: Moving '../../../../../../Users/Johannes/Documents/Unreal Projects/BtoomUnreal/Saved/CrackerBomb21AF3CB14F810F85BE6DBF89A719BFF9.tmp' to '../../../../../../Users/Johannes/Documents/Unreal Projects/BtoomUnreal/Content/Blueprints/CrackerBomb.uasset'
+[2014.10.12-21.13.04:413][146]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyProjectile" FILE="../../../../../../Users/Johannes/Documents/Unreal Projects/BtoomUnreal/Content/Blueprints/MyProjectile.uasset" SILENT=true
+[2014.10.12-21.13.04:996][146]LogSavePackage: Save=567.125061ms
+[2014.10.12-21.13.04:996][146]LogSavePackage: Moving '../../../../../../Users/Johannes/Documents/Unreal Projects/BtoomUnreal/Saved/MyProjectile3757E8B648313848C44102A2F63CFAA8.tmp' to '../../../../../../Users/Johannes/Documents/Unreal Projects/BtoomUnreal/Content/Blueprints/MyProjectile.uasset'
+[2014.10.12-21.16.30:486][205]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_12) Not registered. Aborting.
+[2014.10.12-21.16.30:486][205]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_13) Not registered. Aborting.
+[2014.10.12-21.16.30:486][205]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2014.10.12-21.16.30:605][205]LogSavePackage: Save=46.118382ms
+[2014.10.12-21.16.30:605][205]LogSavePackage: Moving '../../../../../../Users/Johannes/Documents/Unreal Projects/BtoomUnreal/Saved/Untitled_1_Auto65D9D6EAA4153FF7DCD4C289F160E33CB.tmp' to '../../../../../../Users/Johannes/Documents/Unreal Projects/BtoomUnreal/Saved/Autosaves/Temp/Untitled_1_Auto6.umap'
+[2014.10.12-21.16.30:627][205]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.141
+[2014.10.12-21.16.30:627][205]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.141
+[2014.10.12-21.16.30:637][205]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/MyCharacter] ([1] browsable assets)...
+[2014.10.12-21.16.30:672][205]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/MyCharacter.MyCharacter]
+[2014.10.12-21.16.30:672][205]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyCharacter]
+[2014.10.12-21.16.31:135][205]LogSavePackage: Save=411.618073ms
+[2014.10.12-21.16.31:135][205]LogSavePackage: Moving '../../../../../../Users/Johannes/Documents/Unreal Projects/BtoomUnreal/Saved/MyCharacter_Auto6F2A32686424B552EE70DC583B37139B5.tmp' to '../../../../../../Users/Johannes/Documents/Unreal Projects/BtoomUnreal/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto6.uasset'
+[2014.10.12-21.16.31:301][205]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Blueprint_Effect_Explosion_Child] ([1] browsable assets)...
+[2014.10.12-21.16.31:323][205]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Blueprint_Effect_Explosion_Child]
+[2014.10.12-21.16.31:433][205]LogSavePackage: Save=44.191685ms
+[2014.10.12-21.16.31:433][205]LogSavePackage: Moving '../../../../../../Users/Johannes/Documents/Unreal Projects/BtoomUnreal/Saved/Blueprint_Effect_Explosion_Child_Auto6AC40F97444E5676B0EB1E4937B1CAB0C.tmp' to '../../../../../../Users/Johannes/Documents/Unreal 
